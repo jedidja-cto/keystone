@@ -1,0 +1,16 @@
+E..
+======================================================================
+ERROR: test_batch_report_export (__main__.TestPhase6Professionalization.test_batch_report_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\test_phase6_professionalization.py", line 72, in test_batch_report_export
+    cursor.execute("INSERT INTO classes (id, school_id, grade_id, teacher_id, name) VALUES (?, ?, ?, ?, ?)",
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 (class_id, self.school_id, self.grade_id, self.teacher_id, "10A"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table classes has no column named teacher_id
+
+----------------------------------------------------------------------
+Ran 3 tests in 18.521s
+
+FAILED (errors=1)

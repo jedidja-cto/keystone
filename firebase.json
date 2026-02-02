@@ -1,0 +1,28 @@
+{
+    "hosting": {
+        "public": ".",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**",
+            "src/**",
+            "docs/**",
+            ".kiro/**",
+            ".venv/**",
+            "venv/**",
+            "__pycache__/**",
+            "*.db",
+            "*.log",
+            "*.py",
+            "test_*.py",
+            "test_results_*.log",
+            "phase6_reports/**"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}

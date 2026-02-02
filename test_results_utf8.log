@@ -1,0 +1,46 @@
+﻿python : test_overall_
+observations_separatio
+n (test_phase5_guardra
+ils.TestPhase5Guardrai
+ls.test_overall_observ
+ations_separation)
+At line:1 char:1
++ python -m unittest 
+-v test_phase5_guardra
+ils.py > 
+test_results.log 2> 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (test_overa   
+ ll_ob...ons_separ    
+ation):String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Verify obs without 
+subject go into 
+overall section. ... 
+ok
+test_report_filters_by
+_term_date (test_phase
+5_guardrails.TestPhase
+5Guardrails.test_repor
+t_filters_by_term_date
+)
+Verify that marks 
+outside the term are 
+not aggregated. ... 
+ERROR
+test_report_filters_qu
+alitative_categories (
+test_phase5_guardrails
+.TestPhase5Guardrails.
+test_report_filters_qu
+alitative_categories)

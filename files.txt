@@ -1,0 +1,11 @@
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\content-mapping
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\foundational-data
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\premeditated-planning
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\teacher-core-operations
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\content-mapping\design.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\content-mapping\requirements.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\foundational-data\requirements.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\premeditated-planning\design.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\premeditated-planning\requirements.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\teacher-core-operations\design.md
+C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\.kiro\specs\teacher-core-operations\requirements.md

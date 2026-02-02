@@ -1,0 +1,16 @@
+E..
+======================================================================
+ERROR: test_batch_report_export (__main__.TestPhase6Professionalization.test_batch_report_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\test_phase6_professionalization.py", line 76, in test_batch_report_export
+    cursor.execute("INSERT INTO students (id, school_id, first_name, last_name) VALUES (?, ?, ?, ?)",
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 (student_id, self.school_id, "Max", "Power"))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: students.enrollment_status
+
+----------------------------------------------------------------------
+Ran 3 tests in 17.727s
+
+FAILED (errors=1)

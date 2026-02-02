@@ -1,0 +1,32 @@
+EEE
+======================================================================
+ERROR: test_batch_report_export (__main__.TestPhase6Professionalization.test_batch_report_export)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\test_phase6_professionalization.py", line 18, in setUp
+    self.school_id = str(DatabaseService.generate_id())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'DatabaseService' has no attribute 'generate_id'
+
+======================================================================
+ERROR: test_curriculum_import (__main__.TestPhase6Professionalization.test_curriculum_import)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\test_phase6_professionalization.py", line 18, in setUp
+    self.school_id = str(DatabaseService.generate_id())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'DatabaseService' has no attribute 'generate_id'
+
+======================================================================
+ERROR: test_student_import (__main__.TestPhase6Professionalization.test_student_import)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Jedidja Kakuva\Documents\Documents\Technology\Apps\keystone\test_phase6_professionalization.py", line 18, in setUp
+    self.school_id = str(DatabaseService.generate_id())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'DatabaseService' has no attribute 'generate_id'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.016s
+
+FAILED (errors=3)
