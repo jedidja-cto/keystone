@@ -1,2 +1,2 @@
-# No external dependencies required
-# Python 3.8+ with sqlite3 (included in standard library)
+fastapi>=0.68.0
+uvicorn>=0.15.0
