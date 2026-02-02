@@ -21,7 +21,9 @@ app.add_middleware(
 
 # Shared Database Dependency
 def get_db():
-    return DatabaseService("keystone.db")
+    import os
+    db_path = os.getenv("DB_PATH", "keystone.db")
+    return DatabaseService(db_path)
 
 @app.get("/health")
 def health_check():
